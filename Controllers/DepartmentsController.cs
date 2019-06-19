@@ -11,7 +11,15 @@ namespace SalesWebMvc.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            List<Department> List = new List<Department>();
+                List.Add(new Department { Id = 1, Name = "Eletronics" });
+                List.Add(new Department { Id = 2, Name = "Fashion" });
+                List.Add(new Department { Id = 3, Name = "Warehouse" });
+                List.Add(new Department { Id = 4, Name = "Toys" });
+                List.Add(new Department { Id = 5, Name = "Decoration" });
+                List.Add(new Department { Id = 6, Name = "Furniture" });
+
+            return View(List);
         }
     }
 }
