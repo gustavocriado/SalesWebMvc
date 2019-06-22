@@ -14,10 +14,8 @@ namespace SalesWebMvc.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Email = table.Column<string>(nullable: true),
-                    BirthDate = table.Column<DateTime>(nullable: false),
-                    BassSalary = table.Column<double>(nullable: false)
+                    Name = table.Column<string>(nullable: true)
+                   
                 },
                 constraints: table =>
                 {
