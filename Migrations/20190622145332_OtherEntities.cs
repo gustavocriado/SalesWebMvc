@@ -8,18 +8,6 @@ namespace SalesWebMvc.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "BassSalary",
-                table: "Department");
-
-            migrationBuilder.DropColumn(
-                name: "BirthDate",
-                table: "Department");
-
-            migrationBuilder.DropColumn(
-                name: "Email",
-                table: "Department");
-
             migrationBuilder.CreateTable(
                 name: "Seller",
                 columns: table => new
@@ -83,23 +71,6 @@ namespace SalesWebMvc.Migrations
 
             migrationBuilder.DropTable(
                 name: "Seller");
-
-            migrationBuilder.AddColumn<double>(
-                name: "BassSalary",
-                table: "Department",
-                nullable: false,
-                defaultValue: 0.0);
-
-            migrationBuilder.AddColumn<DateTime>(
-                name: "BirthDate",
-                table: "Department",
-                nullable: false,
-                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
-
-            migrationBuilder.AddColumn<string>(
-                name: "Email",
-                table: "Department",
-                nullable: true);
         }
     }
 }

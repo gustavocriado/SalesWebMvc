@@ -26,13 +26,6 @@ namespace SalesWebMvc.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<double>("BassSalary");
-
-                    b.Property<DateTime>("BirthDate");
-
-                    b.Property<string>("Email");
-
                     b.Property<string>("Name");
 
                     b.HasKey("Id");
