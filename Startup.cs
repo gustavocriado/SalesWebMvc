@@ -41,6 +41,7 @@ namespace SalesWebMvc
                     options.UseSqlServer(Configuration.GetConnectionString("SalesWebMvcContext"), 
                     builder => builder.MigrationsAssembly("SalesWebMvc")));
 
+            
 
             services.AddScoped<SeedingService>();
         }
