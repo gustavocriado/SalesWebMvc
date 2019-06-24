@@ -35,14 +35,14 @@ namespace SalesWebMvc.Data
             Department d7 = new Department("furniture");
             Department d8 = new Department("Decoration");
 
-            Seller s1 = new Seller("Bob Brown","bob.computers@newstore.com",new DateTime(1998,5,21), 1.500, d1);
-            Seller s2 = new Seller("Bruce Batman", "batman.fashion@newstore.com", new DateTime(2000, 8, 30), 1.000, d2);
-            Seller s3 = new Seller("Alex Pigman", "pigman.books@newstore.com", new DateTime(1982, 2, 15), 15.000, d3);
+            Seller s1 = new Seller("Bob Brown","bob.computers@newstore.com",new DateTime(1998,5,21), 1500, d1);
+            Seller s2 = new Seller("Bruce Batman", "batman.fashion@newstore.com", new DateTime(2000, 8, 30), 1000, d2);
+            Seller s3 = new Seller("Alex Pigman", "pigman.books@newstore.com", new DateTime(1982, 2, 15), 15000, d3);
             Seller s4 = new Seller("Klark Crente", "klark.Eletronics@newstore.com", new DateTime(1945, 9, 4), 750, d4);
-            Seller s5 = new Seller("Jair Thanos", "Thanos.Toys@newstore.com", new DateTime(2015, 10, 19), 2.000, d5);
-            Seller s6 = new Seller("Peter SpiderMan", "Spider.Clothes@newstore.com", new DateTime(2007, 7, 20), 2.500, d6);
-            Seller s7 = new Seller("Ronald McDonalds", "Donalds.Furniture@newstore.com", new DateTime(2019, 6, 22), 6.000, d7);
-            Seller s8 = new Seller("Billie Joe", "Greenday.Decoration@newstore.com", new DateTime(1978, 8, 30), 80.000, d8);
+            Seller s5 = new Seller("Jair Thanos", "Thanos.Toys@newstore.com", new DateTime(2015, 10, 19), 2000, d5);
+            Seller s6 = new Seller("Peter SpiderMan", "Spider.Clothes@newstore.com", new DateTime(2007, 7, 20), 2500, d6);
+            Seller s7 = new Seller("Ronald McDonalds", "Donalds.Furniture@newstore.com", new DateTime(2019, 6, 22), 6000, d7);
+            Seller s8 = new Seller("Billie Joe", "Greenday.Decoration@newstore.com", new DateTime(1978, 8, 30), 80000, d8);
 
             SalesRecord r1 = new SalesRecord(new DateTime(2019, 06, 22),11.000,SaleStatus.Billed, s1);
             SalesRecord r2 = new SalesRecord(new DateTime(2019, 06, 22), 12.000, SaleStatus.Billed, s2);

@@ -110,3 +110,4 @@ C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.
 C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.pdb
 C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.csproj.CopyComplete
 C:\Users\gcriado\Documents\Bureau Veritas\Projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.g.cshtml.cs
+C:\Users\gcriado\Documents\Bureau Veritas\Projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.g.cshtml.cs
