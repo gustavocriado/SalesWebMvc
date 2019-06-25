@@ -115,3 +115,6 @@ C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\View
 C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.g.cshtml.cs
 C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.g.cshtml.cs
 C:\Users\Gustavo\Desktop\projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.g.cshtml.cs
+C:\Users\gcriado\Documents\Bureau Veritas\Projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.g.cshtml.cs
+C:\Users\gcriado\Documents\Bureau Veritas\Projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.g.cshtml.cs
+C:\Users\gcriado\Documents\Bureau Veritas\Projetos\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.g.cshtml.cs
