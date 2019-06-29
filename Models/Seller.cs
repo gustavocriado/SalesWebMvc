@@ -26,9 +26,9 @@ namespace SalesWebMvc.Models
         public DateTime Date { get; set; }
 
         [Required(ErrorMessage = "{0} Required")]
-        [Range(100.0,50000.0,ErrorMessage ="{0} must be from {1 to {2}")]
+        [DataType(DataType.Currency)]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:F2}")]
         [Display (Name = "Base Salary")]
-        [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BaseSalary { get; set; }
 
         public Department Department { get; set; }
