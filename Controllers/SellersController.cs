@@ -69,8 +69,15 @@ namespace SalesWebMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int Id)
         {
-             await _sellerService.RemoveAsync(Id);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                await _sellerService.RemoveAsync(Id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch(IntegrityException e)
+            {
+                return RedirectToAction(nameof(Error), new {Message = "Can´t to delete the seller because he/she has sales Record active" });
+            }
         }
         public async Task<IActionResult> Details(int? Id)
         {
