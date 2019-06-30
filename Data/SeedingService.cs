@@ -44,22 +44,22 @@ namespace SalesWebMvc.Data
             Seller s7 = new Seller("Ronald McDonalds", "Donalds.Furniture@newstore.com", new DateTime(2019, 6, 22), 6000, d7);
             Seller s8 = new Seller("Billie Joe", "Greenday.Decoration@newstore.com", new DateTime(1978, 8, 30), 80000, d8);
 
-            SalesRecord r1 = new SalesRecord(new DateTime(2019, 06, 22),11.000,SaleStatus.Billed, s1);
-            SalesRecord r2 = new SalesRecord(new DateTime(2019, 06, 22), 12.000, SaleStatus.Billed, s2);
-            SalesRecord r3 = new SalesRecord(new DateTime(2019, 06, 22), 13.000, SaleStatus.Billed, s3);
-            SalesRecord r4 = new SalesRecord(new DateTime(2019, 06, 22), 14.000, SaleStatus.Billed, s4);
-            SalesRecord r5 = new SalesRecord(new DateTime(2019, 06, 22), 15.000, SaleStatus.Billed, s5);
-            SalesRecord r6 = new SalesRecord(new DateTime(2019, 06, 22), 16.000, SaleStatus.Billed, s6);
-            SalesRecord r7 = new SalesRecord(new DateTime(2019, 06, 22), 17.000, SaleStatus.Billed, s7);
-            SalesRecord r8 = new SalesRecord(new DateTime(2019, 06, 22), 18.000, SaleStatus.Billed, s8);
-            SalesRecord r9 = new SalesRecord(new DateTime(2019, 06, 22), 19.000, SaleStatus.Canceled, s1);
-            SalesRecord r10 = new SalesRecord(new DateTime(2019, 06, 22), 20.000, SaleStatus.Canceled, s2);
-            SalesRecord r11 = new SalesRecord(new DateTime(2019, 06, 22), 21.000, SaleStatus.Canceled, s3);
-            SalesRecord r12 = new SalesRecord(new DateTime(2019, 06, 22), 22.000, SaleStatus.Canceled, s4);
-            SalesRecord r13 = new SalesRecord(new DateTime(2019, 06, 22), 23.000, SaleStatus.Pending, s1);
-            SalesRecord r14 = new SalesRecord(new DateTime(2019, 06, 22), 24.000, SaleStatus.Pending, s2);
-            SalesRecord r15 = new SalesRecord(new DateTime(2019, 06, 22), 25.000, SaleStatus.Pending, s3);
-            SalesRecord r16 = new SalesRecord(new DateTime(2019, 06, 22), 26.000, SaleStatus.Pending, s4);
+            SalesRecord r1 = new SalesRecord(new DateTime(2019, 06, 22),11000,SaleStatus.Billed, s1);
+            SalesRecord r2 = new SalesRecord(new DateTime(2019, 06, 22), 12000, SaleStatus.Billed, s2);
+            SalesRecord r3 = new SalesRecord(new DateTime(2019, 06, 22), 13000, SaleStatus.Billed, s3);
+            SalesRecord r4 = new SalesRecord(new DateTime(2019, 06, 22), 14000, SaleStatus.Billed, s4);
+            SalesRecord r5 = new SalesRecord(new DateTime(2019, 06, 22), 15000, SaleStatus.Billed, s5);
+            SalesRecord r6 = new SalesRecord(new DateTime(2019, 06, 10), 16000, SaleStatus.Billed, s6);
+            SalesRecord r7 = new SalesRecord(new DateTime(2019, 06, 10), 17000, SaleStatus.Billed, s7);
+            SalesRecord r8 = new SalesRecord(new DateTime(2019, 06, 10), 18000, SaleStatus.Billed, s8);
+            SalesRecord r9 = new SalesRecord(new DateTime(2019, 06, 22), 19000, SaleStatus.Canceled, s1);
+            SalesRecord r10 = new SalesRecord(new DateTime(2019, 06, 22), 20000, SaleStatus.Canceled, s2);
+            SalesRecord r11 = new SalesRecord(new DateTime(2019, 06, 22), 21000, SaleStatus.Canceled, s3);
+            SalesRecord r12 = new SalesRecord(new DateTime(2019, 06, 09), 22000, SaleStatus.Canceled, s4);
+            SalesRecord r13 = new SalesRecord(new DateTime(2019, 06, 09), 23000, SaleStatus.Pending, s1);
+            SalesRecord r14 = new SalesRecord(new DateTime(2019, 06, 09), 24000, SaleStatus.Pending, s2);
+            SalesRecord r15 = new SalesRecord(new DateTime(2019, 06, 09), 25000, SaleStatus.Pending, s3);
+            SalesRecord r16 = new SalesRecord(new DateTime(2019, 06, 09), 26000, SaleStatus.Pending, s4);
 
             _Context.Department.AddRange(d1, d2, d3, d4, d5, d6, d7, d8);
             _Context.Seller.AddRange(s1,s2,s3,s4,s5,s6,s7,s8);
