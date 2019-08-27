@@ -22,8 +22,9 @@ namespace SalesWebMvc.Models
 
         public SaleStatus Status { get; set; }
         public Seller Seller { get; set; }
+        public Sales Sales { get; set; }
 
-        public SalesRecord()
+    public SalesRecord()
         {
         }
 

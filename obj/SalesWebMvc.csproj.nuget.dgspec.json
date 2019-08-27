@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gcriado\\Documents\\Bureau Veritas\\Projetos\\SalesWebMvc\\SalesWebMvc.csproj": {}
+    "C:\\Users\\gcriado\\Desktop\\SalesWebMvc\\SalesWebMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gcriado\\Documents\\Bureau Veritas\\Projetos\\SalesWebMvc\\SalesWebMvc.csproj": {
+    "C:\\Users\\gcriado\\Desktop\\SalesWebMvc\\SalesWebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gcriado\\Documents\\Bureau Veritas\\Projetos\\SalesWebMvc\\SalesWebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\gcriado\\Desktop\\SalesWebMvc\\SalesWebMvc.csproj",
         "projectName": "SalesWebMvc",
-        "projectPath": "C:\\Users\\gcriado\\Documents\\Bureau Veritas\\Projetos\\SalesWebMvc\\SalesWebMvc.csproj",
+        "projectPath": "C:\\Users\\gcriado\\Desktop\\SalesWebMvc\\SalesWebMvc.csproj",
         "packagesPath": "C:\\Users\\gcriado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gcriado\\Documents\\Bureau Veritas\\Projetos\\SalesWebMvc\\obj\\",
+        "outputPath": "C:\\Users\\gcriado\\Desktop\\SalesWebMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
